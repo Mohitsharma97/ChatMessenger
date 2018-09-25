@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF453F3F"
+    tools:context=".StartActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/abc"
+        android:scaleType="centerCrop"
+        android:id="@+id/startactivity"/>
+
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitCenter"
+        android:layout_marginTop="77dp"
+        android:src="@mipmap/ic_chat" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="250dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="103dp"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/ic_messenger" />
+
+
+    <Button
+        android:id="@+id/signupbtn"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="146dp"
+        android:background="@drawable/signin_btn"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="Need a New Account "
+        android:textColor="#ffffff"
+        android:textStyle="normal" />
+
+    <Button
+        android:id="@+id/signinbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="78dp"
+        android:background="@drawable/login_button"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="Already Have account ? "
+        android:textColor="#ffffff"
+        android:textStyle="normal" />
+</RelativeLayout>

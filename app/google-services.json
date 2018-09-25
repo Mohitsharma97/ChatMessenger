@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "396515099731",
+    "firebase_url": "https://chat-messenger-395b4.firebaseio.com",
+    "project_id": "chat-messenger-395b4",
+    "storage_bucket": "chat-messenger-395b4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:396515099731:android:04acc8b68ea5f821",
+        "android_client_info": {
+          "package_name": "com.example.mohitsharma.chatmessenger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "396515099731-qh7gc40bqi2qhrn6mvu8t3pb3i4re50j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mohitsharma.chatmessenger",
+            "certificate_hash": "1fa636b441a4b0736d778eb9e1f814e2d948973a"
+          }
+        },
+        {
+          "client_id": "396515099731-vtcvr5hmjksn1vopul6hingg0lie0i27.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAahDlAdJkws9BKhvrdV3Vz4fkfSczZpuI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "396515099731-vtcvr5hmjksn1vopul6hingg0lie0i27.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
